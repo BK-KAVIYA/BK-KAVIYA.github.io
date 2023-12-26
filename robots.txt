@@ -1,0 +1,3 @@
+User-agent: *
+Allow : /
+Sitemap:https://bk-kaviya.github.io/sitemap.xml
