@@ -1,598 +1,197 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Baladurage Kavinda</title>
+    <meta name="description" content="Baladurage Kavinda's profile and achievements in software engineering and ICT." />
+    <meta name="keywords" content="Baladurage Kavinda, software engineering, ICT, Matara, Sri Lanka" />
+    <meta name="author" content="Baladurage Kavinda" />
+    <link rel="canonical" href="https://bk-kaviya.github.io/" />  
 
-  <title>Baladurage Kavinda</title>
-  <meta name="description" content="Baladurage Kavinda's profile and achievements in software engineering and ICT." />
-  <meta name="keywords" content="Baladurage Kavinda, software engineering, ICT, Matara, Sri Lanka" />
-  <meta name="author" content="Baladurage Kavinda" />
-  <link rel="canonical" href="https://bk-kaviya.github.io/" />  
-  
+    <!-- Favicons -->
+    <link href="assets/images/favicon.png" rel="icon" alt="Baladurage Kavinda">
+    <link href="assets/images/favicon.png" rel="apple-touch-icon" alt="Baladurage Kavinda">
+    <!-- google font -->
+    <link href="//fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- CSS Style link -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon" alt="Baladurage Kavinda">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" alt="Baladurage Kavinda">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- ain CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <script
-  type="module" 
-  src="https://unpkg.com/profile-components/dist/github-user.js">
-  </script>
-
-  
 </head>
 
 <body>
+    <!-- header -->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar" href="index.html">
+                    <image src="assets/images/favicon.png" alt="Baladurage Kavinda" style="width: 50px; height: 50px;">
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">My Intro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#progress">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <form action="#search" method="GET" class="d-flex search-header">
+                        <input class="form-control" type="search" placeholder="Enter Keyword..." aria-label="Search"
+                            required>
+                        <button class="btn btn-style" type="submit">Search</button>
+                    </form>
+                </div>
+                <!-- toggle switch for light and dark theme -->
+                <div class="cont-ser-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+        </div>
+    </header>
+    <!-- //header -->
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container">
-              
-      <h1><a href="index.html">Baladurage Kavinda</a></h1>
-      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid" width="50%"></a> -->
-      <h2>I'm an enthusiastic <span>undergraduate student</span> at the University of Ruhuna</h2>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link active" href="#header">Home</a></li>
-          <li><a class="nav-link" href="#about">About</a></li>
-          <li><a class="nav-link" href="#resume">Resume</a></li>
-          <li><a class="nav-link" href="#services">Skills</a></li>
-          <li><a class="nav-link" href="#portfolio">Projects</a></li>
-          <li><a class="nav-link" href="#contact">Contact</a></li>
-          <li><a class="nav-link" href="#" onclick="showModal()">Download CV</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-      <div class="area" >
-        <ul class="circles">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-        </ul>
-</div >
-
-      <div class="social-links">
-        <a href="tel:+94788311883" class="call" title="Call"><i class="bi bi-telephone-fill"></i></a>
-        <a href="https://wa.me/+94788311883" class="whatsapp" target="_blank" title="Whatsapp"><i class="bi bi-whatsapp"></i></a>
-        <a href="https://twitter.com/BK_KAVIYA" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="mailto:dilshankavinda371@gmail.com" class="email" title="Email"><i class="bi bi-envelope-at-fill"></i></a> 
-        <a href="https://github.com/BK-KAVIYA" class="github" target="_blank" title="GitHub"><i class="bi  bi-github"></i></a>
-        <a href="https://www.facebook.com/profile.php?id=100016232133045" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://instagram.com/bk__kaviya?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/baladurage-kavinda" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
-      <!-- Spotify iframe -->
-      <iframe class="spotify" style="border-radius: 12px; margin-top: 20px;" src="https://open.spotify.com/embed/track/70lg79zjqjMZq1TrFPHt2n?utm_source=generator" width="40%" height="80px" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
-  </header><!-- End Header -->
-
-  <!-- The modal overlay -->
-  <div id="pdfModal">
-    <div id="pdfModalContent">
-        <a href="#" class="btn bg-danger" onclick="closeModal()" style="float: right;">×</a>
-        <div id="pdfIframeContainer"></div>
-        <button class="btn bg-success mt-3" onclick="downloadPDF()">Download PDF</button>
-    </div>
-  </div>
-
-  <script>
-    function showModal() {
-        var pdfIframeContainer = document.getElementById("pdfIframeContainer");
-        var pdfModal = document.getElementById("pdfModal");
-
-        // Create the iframe element
-        var pdfIframe = document.createElement("iframe");
-        pdfIframe.id = "pdfIframe";
-        pdfIframe.src = "assets/CV/Baladurage_Kavinda.pdf";
-
-        // Add the iframe to the container
-        pdfIframeContainer.innerHTML = ''; // Clear previous content
-        pdfIframeContainer.appendChild(pdfIframe);
-
-        pdfModal.style.display = "block"; // Display the modal
-    }
-
-    function closeModal() {
-        var pdfModal = document.getElementById("pdfModal");
-        pdfModal.style.display = "none"; // Hide the modal
-    }
-
-    function downloadPDF() {
-        var downloadLink = document.createElement("a");
-        downloadLink.href = "assets/CV/Baladurage_Kavinda.pdf";
-        downloadLink.download = "Baladurage_Kavinda_CV.pdf";
-        downloadLink.target = "_blank"; 
-        downloadLink.click();
-    }
-</script>
-
-  <!-- ======= About Section ======= -->
-  <section id="about" class="about">
-
-    <!-- ======= About Me ======= -->
-    <div class="about-me container">
-
-      <div class="section-title">
-        <h2>About</h2>
-        <p>Learn more about me</p>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/me.jpg" class="img-fluid rounded-circle" alt="Baladurage Kavinda">
-      </div>
-      
-      
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3>Software Engineer</h3>
-          <p class="fst-italic">
-            Undergraduate at University of Ruhuna (Bachelor of Information and Communication Technology Honours)
-          </p>
-          <div class="row">
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Full Name :</strong> <span>Baladurage Kavinda</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Gander :</strong> <span>Male</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>City :</strong> <span>Matara</span></li>
-              </ul>
+    <!-- banner section -->
+    <section class="w3l-banner py-5" id="home">
+        <div class="container py-md-5 py-4">
+            <div class="row align-items-center pt-4">
+                <div class="col-md-6 banner-left pe-xl-5">
+                    <h4>Hi, I'm Baladurage Kavinda</h4>
+                    <h3 class="mb-3 mt-1">Developer</h3>
+                    <p class="banner-sub me-md-5">
+                        I'm an enthusiastic <span>undergraduate student</span> at the University of Ruhuna   
+                    </p>
+                    <div class="d-flex align-items-center buttons-banner mt-sm-5 mt-4">
+                        <a href="https://www.linkedin.com/in/baladurage-kavinda/" class="btn btn-style me-2">Hire Me</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                </div>
             </div>
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Date of Birth :</strong> <span>September 23, 1999</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>NIC :</strong> <span>199926700657</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Nationality :</strong> <span>Sri Lanka</span></li>
-              </ul>
-            </div>
-          </div>
-          <p>
-            I’m a energetic, ambitious person who has developed a mature and responsible approach to any task that I undertake or situation
-            I’m presented with. As a solution-oriented person who is currently working in several university
-            clubs at University of Ruhuna, I have extensive experience as a team player, team manager, and
-            leader to achieve a certain task on time and with excellence.
-          </p>
-          <p>
-            I am currently pursuing a Bachelor of Information and Communication Technology (Honours) at the Faculty of Technology, University of Ruhuna. During my academic journey, I have maintained an impressive GPA of 3.89/4.00 over six semesters.
-            I’m currently looking for a software engineering internship to gain more experience in the field and to improve my skills.
         </div>
-      </div>
-
-    </div><!-- End About Me -->
-
-    <!-- ======= Counts ======= -->
-    <!-- <div class="counts container">
-
-      <div class="row">
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-award"></i>
-            <span data-purecounter-start="0" data-purecounter-end="3.91" data-purecounter-duration="1" class="purecounter">3.91</span>
-            <p>Current GPA</p>
-          </div>
+        <!-- animations icons -->
+        <div class="icon-effects-w3-1 text-right">
+            <img src="assets/images/icon2.png" alt="" class="img-fluid">
         </div>
-        
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-          <div class="count-box">
-            <i class="bi bi-journal-richtext"></i>
-            <span data-purecounter-start="0" data-purecounter-end="21" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Projects</p>
-          </div>
+        <div class="icon-effects-w3-2 text-right">
+            <img src="assets/images/icon3.png" alt="" class="img-fluid">
         </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-bookmarks"></i>
-            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Cources</p>
-          </div>
+        <div class="icon-effects-w3-3 text-right">
+            <img src="assets/images/icon1.png" alt="" class="img-fluid">
         </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-activity"></i>
-            <span data-purecounter-start="0" data-purecounter-end="13" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Artical Publications</p>
-          </div>
+        <div class="icon-effects-w3-4 text-right">
+            <img src="assets/images/icon6.png" alt="" class="img-fluid">
         </div>
-
-      </div> -->
-
-    </div><!-- End Counts -->
-
-    <!-- ======= Skills  ======= -->
-    <div class="skills container">
-
-      <div class="section-title">
-        <h2>Language</h2>
-      </div>
-
-      <div class="row skills-content">
-
-        <div class="col-lg-6">
-
-          <div class="progress">
-            <span class="skill">English<i class="val">90%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-        
-          <div class="col-lg-6">
-          <div class="progress">
-            <span class="skill">Sinhala<i class="val">100%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-         
-        </div>
-
-      </div>
-
-    </div><!-- End Skills -->
-
-    <div class="skills container">
-      <div class="section-title">
-        <h2>Programing Languages</h2>
-      </div>
-      <div class="row skills-content">
-
- 
-        <div class="col-lg-4">
+        <!-- //animations icons -->
+    </section>
+    <!-- //banner section -->
 
     
-          <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i>Java </span>
-          </div>
-          <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i> PHP</span>
-          </div>
 
-
-
-        </div>
-
-        <div class="col-lg-4">
-          <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i> JavaScript</span>
-          </div>
-
-          <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i> C</span>
-          </div>
-
-
-        </div>
-
-        <div class="col-lg-4">
-
-          <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i> Python</span>
-          </div>
-          <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i>C#</span>
-          </div>
-
-
-        </div>
-
-      </div>
-
-    </div><!-- End Skills -->
-
-
-    <!-- ======= Front-End   ======= -->
-    <div class="skills container">
-
-      <div class="section-title">
-        <h2>Front-End Technologies</h2>
-      </div>
-
-      <div class="row skills-content">
-
-        <div class="col-lg-4">
-          <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i> React.js</span>
-          </div>
-          <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i> Bootsrap</span>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i>Next.js</span>
-          </div>
-          <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i>Tailwind</span>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i>Angular</span>
-          </div>
-            <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i>MUI</span>
-          </div>
-        </div>
-
-
-
-
-      </div>
-
-    </div><!-- Front-End  -->
-
-    <!-- ======= Back-End   ======= -->
-    <div class="skills container">
-
-      <div class="section-title">
-        <h2>Back-End Technologies</h2>
-      </div>
-
-      <div class="row skills-content">
-
-        <div class="col-lg-4">
-          <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i>NodeJS</span>
-          </div>
-
-        </div>
-        <div class="col-lg-4">
-
-          <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i>Springboot</span>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i>.NetCore</span>
-          </div>
-
-        </div>
-        <div class="col-lg-4">
-          <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i>Laravel</span>
-          </div>
-
-        </div>
-
-
-
-      </div>
-
-    </div><!-- Back-End-End  -->
-
-    
-    <!-- ======= Database  ======= -->
-    <div class="skills container">
-
-      <div class="section-title">
-        <h2>Database Technologies</h2>
-      </div>
-
-      <div class="row skills-content">
-
-        <div class="col-lg-4">
-          <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i>MySQL</span>
-          </div>
-
-        </div>
-        <div class="col-lg-4">
-          <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i>MongoDB</span>
-          </div>
-   
-        </div>
-        <div class="col-lg-4">
-          <div class="progress">
-            <span class="skill"><i class="bi bi-caret-right-fill"></i>Firebase</span>
-          </div>
- 
-        </div>
-      </div>
-    </div>
-
-    <!-- ======= Interests ======= -->
-    <div class="interests container">
-
-      <div class="section-title">
-        <h2>Interests</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-3 col-md-4">
-          <div class="icon-box">
-            <i class="ri-code-s-slash-line" style="color: #ffbb2c;"></i>
-            <h3>Coding</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-basketball-line" style="color: #5578ff;"></i>
-            <h3>Cricket</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-game-fill" style="color: #e80368;"></i>
-            <h3>Gaming</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <i class="ri-map-2-line" style="color: #e361ff;"></i>
-            <h3>Travel</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-window-line" style="color: #47aeff;"></i>
-            <h3>Blogging</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-spotify-line" style="color: #ffa76e;"></i>
-            <h3>Listen to Music</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-film-line" style="color: #11dbcf;"></i>
-            <h3>Watching Movies</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-book-line" style="color: #4233ff;"></i>
-            <h3>Reading</h3>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-    </div><!-- End Interests -->
-
-    <!-- ======= Testimonials ======= -->
-    <!-- <div class="testimonials container">
-
-      <div class="section-title">
-        <h2>Testimonials</h2>
-      </div>
-
-      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-        <div class="swiper-wrapper">
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Saul Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
+    <!-- ======= About Section ======= -->
+    <section class="w3l-aboutblock1 pt-lg-5 pt-2 pb-5" id="about">
+        <div class="container py-md-5 py-4">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="position-relative">
+                        <img src="assets/images/about.jpg" alt="" class="radius-image img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-8 ps-lg-5 mt-lg-0 mt-5">
+                    <h5 class="title-small mb-1">My Intro</h5>
+                    <h3 class="title-style">About Me</h3>
+                    <p class="mt-3">
+                        As a highly motivated Information and Communication Technology (Honours) student with a near-perfect 3.89 GPA,
+                         I actively lead and participate in university clubs at the University of Ruhuna, demonstrating strong teamwork 
+                         and leadership skills. I'm eager to leverage my academic achievements and solution-oriented approach in a software 
+                         engineering internship, contributing to the field and furthering my personal growth.
+                    </p>
+                    <div class="my-info mt-md-5 mt-4">
+                        <ul class="single-info">
+                            <li class="name-style">Name</li>
+                            <li>:</li>
+                            <li>
+                                <p>Baladurage Kavinda</p>
+                            </li>
+                        </ul>
+                        <ul class="single-info">
+                            <li class="name-style">Age</li>
+                            <li>:</li>
+                            <li>
+                                <p>24 Years</p>
+                            </li>
+                        </ul>
+                        <ul class="single-info">
+                            <li class="name-style">From</li>
+                            <li>:</li>
+                            <li>
+                                <p>Matara, Sri Lanka</p>
+                            </li>
+                        </ul>
+                        <ul class="single-info">
+                            <li class="name-style">Email</li>
+                            <li>:</li>
+                            <li>
+                                <p><a href="mailto:dilshankavinda371@gmail.com">dilshankavinda371@gmail.com</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="assets/resume/Resume_Kavinda.pdf" target="_blank" class="btn btn-style mt-5">Download CV</a>
+                </div>
             </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-              <h3>Sara Wilsson</h3>
-              <h4>Designer</h4>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-              <h3>Jena Karlis</h3>
-              <h4>Store Owner</h4>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-              <h3>Matt Brandon</h3>
-              <h4>Freelancer</h4>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-              <h3>John Larson</h3>
-              <h4>Entrepreneur</h4>
-            </div>
-          </div>
-
         </div>
-        <div class="swiper-pagination"></div>
-      </div>
+    </section>
+    <!-- //about section -->
 
-      <div class="owl-carousel testimonials-carousel">
-
-      </div>
-
-    </div>End Testimonials  -->
-
-  </section><!-- End About Section -->
-
-  <!-- ======= Resume Section ======= -->
-  <section id="resume" class="resume">
+    <!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume w3l-timeline-1 py-5">
     <div class="container">
 
-      <div class="section-title">
-        <h2>Resume</h2>
-        <p>Check My Resume</p>
+      <div class="title-heading-w3 text-center mb-sm-5 mb-4">
+        <h5 class="title-small">Resume</h5>
+        <h3 class="title-style">CHECK MY RESUME</h3>
       </div>
 
       <div class="row">
           <div class="col-lg-6">
-  
-  
-            <h3 class="resume-title">Education</h3>
+            <h5 class="sub-title-timeline"><i class="fas fa-graduation-cap"></i> Education</h5>
             <div class="resume-item">
               <h4>BACHELOR OF INFORMATION AND COMMUNICATION TECHNOLOGY - HONOURS</h4>
               <h5>2019 - Present</h5>
               <p><em>Faculty of Technology, University of Ruhuna, Sri Lanka</em></p>
               <ul>
-                <li>President - Cultural Circle(2022)</li>
-                <li>Team Leader - University Student Mentoring Program</li>
-                <li>Member- Information and Communication Technology Student Circle</li>
+                <li>⚫President - Cultural Circle(2022)</li>
+                <li>⚫Team Leader - University Student Mentoring Program</li>
+                <li>⚫Member- Information and Communication Technology Student Circle</li>
               </ul>
             </div>
             <div class="resume-item">
@@ -691,362 +290,765 @@
             </div>
           </div>
         <div class="col-lg-6">
-          <h3 class="resume-title">Certificate Courses</h3>
-          <div class="resume-item">
-            <h4>Postman API Fundamentals Student Expert</h4>
-            <h5>Completed</h5>
-            <i class="bx bx-link"></i><a href=
-            "https://badgr.com/public/assertions/sKiboQ2vRr6-VquYLRgzTg"
-            class="credential" target="_blank"> See credential</a>
-            <p><em>Postman</em></p>
-          </div>
-          <div class="resume-item">
-            <h4>AWS Educate Introduction to Cloud</h4>
-            <h5>Completed</h5><i class="bx bx-link"></i><a href=
-            "https://www.credly.com/badges/2bc43c3f-d3ac-4edd-ae8e-3fe621d08c7b/linked_in_profile"
-            class="credential" target="_blank"> See credential</a>
-            <p><em>Amazon Web Services Training and Certification</em></p>
-          </div>
+            <h5 class="sub-title-timeline"><i class="fas fa-graduation-cap"></i> Certificate Courses</h5>
+            <div class="resume-item">
+                <h4>AI/ML Engineer</h4>
+                <h5>SLIIT</h5>
+                <i class="bx bx-link"></i><a href=
+                "https://code.sliit.org/certificates/esnoqsbo5t"
+                class="credential" target="_blank"> See credential</a>
+                <p><em>Postman</em></p>
+              </div>
+            <div class="resume-item">
+                <h4>Postman API Fundamentals Student Expert</h4>
+                <h5>Postman</h5>
+                <i class="bx bx-link"></i><a href=
+                "https://badgr.com/public/assertions/sKiboQ2vRr6-VquYLRgzTg"
+                class="credential" target="_blank"> See credential</a>
+                <p><em>Postman</em></p>
+            </div>
+            <div class="resume-item">
+                <h4>AWS Educate Introduction to Cloud</h4>
+                <h5>AWS Educate</h5><i class="bx bx-link"></i><a href=
+                "https://www.credly.com/badges/2bc43c3f-d3ac-4edd-ae8e-3fe621d08c7b/linked_in_profile"
+                class="credential" target="_blank"> See credential</a>
+                <p><em>Amazon Web Services Training and Certification</em></p>
+            </div>
 
-          <div class="resume-item">
-            <h4>Introduction to Cybersecurity</h4>
-            <h5>Completed</h5><i class="bx bx-link"></i><a href=
-            "https://www.credly.com/badges/73a40700-4ef0-4f71-ac4a-2360b4ee6f7e/public_url"
-            class="credential" target="_blank"> See credential</a>
-            <p><em>Cisco</em></p>
-          </div>
+            <div class="resume-item">
+                <h4>Introduction to Cybersecurity</h4>
+                <h5>CISCO</h5><i class="bx bx-link"></i><a href=
+                "https://www.credly.com/badges/73a40700-4ef0-4f71-ac4a-2360b4ee6f7e/public_url"
+                class="credential" target="_blank"> See credential</a>
+                <p><em>Cisco</em></p>
+            </div>
 
-          <div class="resume-item">
-            <h4>Introduction to Generative AI</h4>
-            <h5>Completed</h5><i class="bx bx-link"></i><a href=
-            "https://www.cloudskillsboost.google/public_profiles/4e393369-33fd-4fd8-9e3f-ce4617f7e3b6/badges/6317468?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
-            class="credential" target="_blank"> See credential</a>
-            <p><em>Google</em></p>
-          </div>
+            <div class="resume-item">
+                <h4>Introduction to Generative AI</h4>
+                <h5>Google</h5><i class="bx bx-link"></i><a href=
+                "https://www.cloudskillsboost.google/public_profiles/4e393369-33fd-4fd8-9e3f-ce4617f7e3b6/badges/6317468?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+                class="credential" target="_blank"> See credential</a>
+                <p><em>Google</em></p>
+            </div>
 
-          <div class="resume-item">
-            <h4>JavaScript Essentials</h4>
-            <h5>Completed</h5><i class="bx bx-link"></i><a href=
-            "https://www.credly.com/badges/5cbe9bb5-a0c4-4ac7-85c4-3682344396b7/linked_in_profile"
-            class="credential" target="_blank"> See credential</a>
-            <p><em>Cisco</em></p>
-          </div>
+            <div class="resume-item">
+                <h4>JavaScript Essentials</h4>
+                <h5>CISCO</h5><i class="bx bx-link"></i><a href=
+                "https://www.credly.com/badges/5cbe9bb5-a0c4-4ac7-85c4-3682344396b7/linked_in_profile"
+                class="credential" target="_blank"> See credential</a>
+                <p><em>Cisco</em></p>
+            </div>
 
-          <div class="resume-item">
-            <h4>Oracle SQL Explorer</h4>
-            <h5>Completed</h5><i class="bx bx-link"></i><a href=
-            "https://mylearn.oracle.com/ou/profile-dashboard/Achievements"
-            class="credential" target="_blank"> See credential</a>
-            <p><em>Oracle</em></p>
-          </div>
-
-          <div class="resume-item">
-            <h4>Introduction to IoT</h4>
-            <h5>Completed</h5><i class="bx bx-link"></i><a href=
-            "https://www.credly.com/badges/d07f4fc9-9dee-4b31-903c-17d955189e45/linked_in_profile"
-            class="credential" target="_blank"> See credential</a>
-            <p><em>Cisco</em></p>
-          </div>
-
-          <div class="resume-item">
-            <h4>Microsoft AI Challange</h4>
-            <h5>Completed</h5><i class="bx bx-link"></i><a href=
-            "https://drive.google.com/file/d/1M-sVVTNoANbO9E3PZzxbwLg7tLKp1_Xy/view"
-            class="credential" target="_blank"> See credential</a>
-            <p><em>Microsoft</em></p>
-          </div>
+            <div class="resume-item">
+                <h4>Oracle SQL Explorer</h4>
+                <h5>ORACAL</h5><i class="bx bx-link"></i><a href=
+                "https://mylearn.oracle.com/ou/profile-dashboard/Achievements"
+                class="credential" target="_blank"> See credential</a>
+                <p><em>Oracle</em></p>
+            </div>
+            <div class="resume-item">
+                <h4>Microsoft AI Challange</h4>
+                <h5>Microsoft</h5><i class="bx bx-link"></i><a href=
+                "https://drive.google.com/file/d/1M-sVVTNoANbO9E3PZzxbwLg7tLKp1_Xy/view"
+                class="credential" target="_blank"> See credential</a>
+                <p><em>Microsoft</em></p>
+            </div>
+            </div>
         </div>
-      </div>
-
     </div>
   </section><!-- End Resume Section -->
 
-  <!-- ======= Services Section ======= -->
-  <section id="services" class="services">
-    <div class="container">
+   
 
-      <div class="section-title">
-        <h2>Skill</h2>
-        <p>My Skills</p>
-      </div>
+    <!-- skills section -->
+    <section class="w3l-progress py-5" id="progress">
+        <div class="container py-md-5 py-4">
+            <div class="title-heading-w3 text-center mb-sm-5 mb-4">
+                <h5 class="title-small mb-1">My Skills</h5>
+                <h3 class="title-style">My Expertise Area</h3>
+            </div>
+            <div class="row py-lg-4">
+                <div class="col-lg-6 pe-lg-5">
+                    <div class="progress-info info1">
+                        <h6 class="progress-tittle">JAVA<span class="">90%</span></h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped gradient-1" role="progressbar"
+                                style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-info info2">
+                        <h6 class="progress-tittle">Mobile Application<span class="">85%</span>
+                        </h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped gradient-2" role="progressbar"
+                                style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-info info3">
+                        <h6 class="progress-tittle">Web Development<span class="">90%</span></h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped gradient-3" role="progressbar"
+                                style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-info info4 mb-0">
+                        <h6 class="progress-tittle">React JS <span class="">80%</span></h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped gradient-4" role="progressbar"
+                                style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5 mt-lg-0 mt-5">
+                    <div class="progress-info info1">
+                        <h6 class="progress-tittle">Node Js <span class="">80%</span></h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped gradient-4" role="progressbar"
+                                style="width: 80%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-info info2">
+                        <h6 class="progress-tittle">Bootstrap<span class="">90%</span>
+                        </h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped gradient-1" role="progressbar"
+                                style="width: 90%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-info info3">
+                        <h6 class="progress-tittle">MySQL<span class="">85%</span></h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped gradient-2" role="progressbar"
+                                style="width: 85%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-info info4 mb-0">
+                        <h6 class="progress-tittle">UI/UX Design <span class="">80%</span></h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped gradient-4" role="progressbar"
+                                style="width: 80%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //skills section -->
 
-      <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-globe"></i></div>
-            <h4><a href="">Software Development</a></h4>
-            <p>Clean, Modern & Responsive Software Development with Latest Frameworks</p>
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services w3l-aboutblock1 pt-lg-5 pt-2 pb-5">
+        <div class="container">
+    
+          <div class="title-heading-w3 text-center mb-sm-5 mb-4">
+            <h5  class="title-small">Skill</h2>
+            <h3 class="title-style">My Skills</p>
           </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-desktop"></i></div>
-            <h4><a href="">UI / UX Design</a></h4>
-            <p>Creative and Good Looking UI,UX Design</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bxs-data"></i></div>
-            <h4><a href="">Database Management</a></h4>
-            <p>Familiarity with SQL and databases such as MySQL, Firebase. </p>
-          </div>
-        </div>
-      </div>
-<br>
-      <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bxl-github"></i></div>
-            <h4><a href="">Software Engineering Principles</a></h4>
-            <p>Understanding software development methodologies (Agile, Waterfall, etc.), version control (Git), and software testing. </p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bxl-android"></i></div>
-            <h4><a href="">Mobile Development</a></h4>
-            <p>Excellent knowledge of mobile app development for Android platforms.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-tachometer"></i></div>
-            <h4><a href="">AI Programming</a></h4>
-            <p>Beginner AI Programmer. Currently Self Learing </p>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-  </section><!-- End Services Section -->
-
-  <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Projects</h2>
-        <p>My Works</p>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-web">Web</li>
-            <li data-filter=".filter-card">Stand-alone</li>
-            <li data-filter=".filter-app">App</li>
-            
-            
-          </ul>
-        </div>
-      </div>
-
-      <div class="row portfolio-container">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-1.png" class="img-fluid" alt="Baladurage Kavinda">
-            <div class="portfolio-info">
-              <h4>Sorthen Lanka Rent Car</h4>
-              <p>Mobile App</p>
-              <div class="portfolio-links">
-                <a href="Projects/portfolio-details-1.html" data-gallery="portfolioDetailsGallery"  data-glightbox="type: external" class="portfolio-details-lightbox" title="Details"><i class="bi bi-list"></i></a>
-                <a href="https://github.com/BK-KAVIYA/Rent-Car-Mobile-Application" target="_blank" title="Link"><i class="bx bx-link"></i></a>
+    
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-globe"></i></div>
+                <h4><a href="">Software Development</a></h4>
+                <p>Clean, Modern & Responsive Software Development with Latest Frameworks</p>
+              </div>
+            </div>
+    
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-desktop"></i></div>
+                <h4><a href="">User Interface/ User experience Design</a></h4>
+                <p>Creative and Good Looking UI,UX Design</p>
+              </div>
+            </div>
+    
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bxs-data"></i></div>
+                <h4><a href="">Database Management</a></h4>
+                <p>Familiarity with SQL and databases such as MySQL, Firebase. </p>
               </div>
             </div>
           </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-2-1.png" class="img-fluid" alt="Baladurage Kavinda">
-            <div class="portfolio-info">
-              <h4>TECMIS Student Managment System</h4>
-              <p>Stand Alone Application</p>
-              <div class="portfolio-links">
-                <a href="Projects/portfolio-details-2.html" data-gallery="portfolioDetailsGallery"  data-glightbox="type: external" class="portfolio-details-lightbox" title="Details"><i class="bi bi-list"></i></a>
-                <a href="https://github.com/BK-KAVIYA/FOT_TECMIS" target="_blank" title="Link"><i class="bx bx-link"></i></a>
+    <br>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bxl-github"></i></div>
+                <h4><a href="">Software Engineering Principles</a></h4>
+                <p>Understanding software development methodologies (Agile, Waterfall, etc.), version control (Git), and software testing. </p>
+              </div>
+            </div>
+    
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bxl-android"></i></div>
+                <h4><a href="">Mobile Development</a></h4>
+                <p>Excellent knowledge of mobile app development for Android platforms.</p>
+              </div>
+            </div>
+    
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                <h4><a href="">AI Programming</a></h4>
+                <p>Beginner AI Programmer. Currently Self Learing </p>
               </div>
             </div>
           </div>
+    
+    
         </div>
+      </section>
+    <!-- End Services Section -->
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-3.png" class="img-fluid" alt="Baladurage Kavinda">
-            <div class="portfolio-info">
-              <h4>Zaara.lk - Online Shopping Platform</h4>
-              <p>E-Commerce Website</p>
-              <div class="portfolio-links">
-                <a href="Projects/portfolio-details-3.html" data-gallery="portfolioDetailsGallery"  data-glightbox="type: external" class="portfolio-details-lightbox" title="Details"><i class="bi bi-list"></i></a>
-                <a href="https://github.com/BK-KAVIYA/Zaara.lk" target="_blank" title="Link"><i class="bx bx-link"></i></a>
-              </div>
+    <!-- projects section -->
+    <section class="w3l-gallery pb-5" id="gallery">
+        <div class="container py-md-5 py-4">
+            <div class="title-heading-w3 text-center mb-sm-5 mb-4">
+                <h5 class="title-small mb-1">Portfolio</h5>
+                <h3 class="title-style">Some of My Recent Projects</h3>
             </div>
-          </div>
-        </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 item">
+                    <div data-lightbox="example-set" data-title="Project 1" class="zoom d-block">
+                        <img class="card-img-bottom d-block" src="assets/images/portfolio/mernstack.png" alt="Card image cap">
+                        <span class="overlay__hover"></span>
+                        <span class="hover-content">
+                            <span class="title">Chat Application</span>
+                            <span class="content">MERN Stack</span>
+                            <div class="portfolio-links"><a href="https://github.com/BK-KAVIYA/MERN-Stack_Real-Time-Chat-Application.git" target="_blank" title="Link"><p class="content">Link</p><i class="bx bx-link"></i></a></div>
+                        </span>
+                    </div>
+                </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-4-1.png" class="img-fluid" alt="Baladurage Kavinda">
-            <div class="portfolio-info">
-              <h4>Chat Application</h4>
-              <p>Java RMI</p>
-              <div class="portfolio-links">
-                <a href="Projects/portfolio-details-4.html" data-gallery="portfolioDetailsGallery"  data-glightbox="type: external" class="portfolio-details-lightbox" title="Details"><i class="bi bi-list"></i></a>
-                <a href="https://github.com/BK-KAVIYA/RMIChatApplication" target="_blank" title="Link"><i class="bx bx-link"></i></a>
-              </div>
+                <div class="col-lg-4 col-md-6 item mt-lg-0 mt-4">
+                    <div data-lightbox="example-set" data-title="Project 3"
+                        class="zoom d-block">
+                        <img class="card-img-bottom d-block" src="assets/images/portfolio/portfolio-1.png" alt="Card image cap">
+                        <span class="overlay__hover"></span>
+                        <span class="hover-content">
+                            <span class="title">Sorthen Lanka Rent Car Application</span>
+                            <span class="content">Mobile App</span>
+                            <div class="portfolio-links"><a href="https://github.com/BK-KAVIYA/Rent-Car-Mobile-Application.git" target="_blank" title="Link"><p class="content">Link</p><i class="bx bx-link"></i></a></div>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 item mt-md-0 mt-4">
+                    <div data-lightbox="example-set" data-title="Project 1" class="zoom d-block">
+                        <img class="card-img-bottom d-block" src="assets/images/portfolio/blog .png" alt="Card image cap">
+                        <span class="overlay__hover"></span>
+                        <span class="hover-content">
+                            <span class="title">Full Stack Blog Site</span>
+                            <span class="content">Ract+Node JS+MYSQL</span>
+                            <div class="portfolio-links"><a href="https://github.com/BK-KAVIYA/Full-Stack-Blog-App--React-Node.js-MySQL.git" target="_blank" title="Link"><p class="content">Link</p><i class="bx bx-link"></i></a></div>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 item mt-4 pt-lg-2">
+                    <div data-lightbox="example-set" data-title="Project 4" class="zoom d-block">
+                        <img class="card-img-bottom d-block" src="assets/images/portfolio/portfolio-4.png" alt="Card image cap">
+                        <span class="overlay__hover"></span>
+                        <span class="hover-content">
+                            <span class="title">Chat Application</span>
+                            <span class="content">JAVA Remote Method Invocation</span>
+                            <div class="portfolio-links"><a href="https://github.com/BK-KAVIYA/RMIChatApplication.git" target="_blank" title="Link"><p class="content">Link</p><i class="bx bx-link"></i></a></div>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 item mt-4 pt-lg-2">
+                    <div data-lightbox="example-set" data-title="Project 5" class="zoom d-block">
+                        <img class="card-img-bottom d-block" src="assets/images/portfolio/portfolio-5.png" alt="Card image cap">
+                        <span class="overlay__hover"></span>
+                        <span class="hover-content">
+                            <span class="title">Hostel Management System</span>
+                            <span class="content">Mobile Application</span>
+                            <div class="portfolio-links"><a href="https://github.com/BK-KAVIYA/Hosatal-Managment-System" target="_blank" title="Link"><p class="content">Link</p><i class="bx bx-link"></i></a></div>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 item mt-4 pt-lg-2">
+                    <div data-lightbox="example-set" data-title="Project 6" class="zoom d-block">
+                        <img class="card-img-bottom d-block" src="assets/images/portfolio/portfolio-2.png" alt="Card image cap">
+                        <span class="overlay__hover"></span>
+                        <span class="hover-content">
+                            <span class="title">FOT TECHMIS</span>
+                            <span class="content">Student Managment System</span>
+                            <div class="portfolio-links"><a href="https://github.com/BK-KAVIYA/FOT_TECMIS.git" target="_blank" title="Link"><p class="content">Link</p><i class="bx bx-link"></i></a></div>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 item mt-4">
+                        <div data-lightbox="example-set" data-title="Project 1" class="zoom d-block">
+                            <img class="card-img-bottom d-block" src="assets/images/portfolio/portfolio-3.png" alt="Card image cap">
+                            <span class="overlay__hover"></span>
+                            <span class="hover-content">
+                                <span class="title">Zaara.lk</span>
+                                <span class="content">E-Commerce Website</span>
+                                <div class="portfolio-links"><a href="https://github.com/BK-KAVIYA/Zaara.lk.git" target="_blank" title="Link"><p class="content">Link</p><i class="bx bx-link"></i></a></div>
+                            </span>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 item mt-4 pt-lg-2">
+                    <div data-lightbox="example-set" data-title="Project 6" class="zoom d-block">
+                        <img class="card-img-bottom d-block" src="assets/images/portfolio/portfolio-6.png" alt="Card image cap">
+                        <span class="overlay__hover"></span>
+                        <span class="hover-content">
+                            <span class="title">MEDI LANKA</span>
+                            <span class="content">E-chanelling Website</span>
+                            <div class="portfolio-links"><a href="https://github.com/BK-KAVIYA/MEDI_LANKA_E-CHANNELLING_WEB_SITE" target="_blank" title="Link"><p class="content">Link</p><i class="bx bx-link"></i></a></div>
+                        </span>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
+    </section>
+    <!-- //projects section -->
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-5.png" class="img-fluid" alt="Baladurage Kavinda">
-            <div class="portfolio-info">
-              <h4>Hostel Management System</h4>
-              <p>Mobile Application</p>
-              <div class="portfolio-links">
-                <a href="Projects/portfolio-details-5.html" data-gallery="portfolioDetailsGallery"  data-glightbox="type: external" class="portfolio-details-lightbox" title="Details"><i class="bi bi-list"></i></a>
-                <a href="https://github.com/BK-KAVIYA/Hosatal-Managment-System" target="_blank" title="Link"><i class="bx bx-link"></i></a>
-              </div>
+    <!-- home service section -->
+    <section class="w3l-servicesblock1 py-5" id="services">
+        <div class="container py-md-5 py-4">
+            <div class="title-heading-w3 text-center mb-sm-5 mb-4">
+                <h5 class="title-small mb-1">What i do?</h5>
+                <h3 class="title-style">How I can help your next project</h3>
             </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-6.jpeg" class="img-fluid" alt="Baladurage Kavinda">
-            <div class="portfolio-info">
-              <h4>MEDI LANKA</h4>
-              <p>E-chanelling Website</p>
-              <div class="portfolio-links">
-                <a href="Projects/portfolio-details-6.html" data-gallery="portfolioDetailsGallery" class="portfolio-details-lightbox"  data-glightbox="type: external" title="Details"><i class="bi bi-list"></i></a>
-                <a href="https://github.com/BK-KAVIYA/MEDI_LANKA_E-CHANNELLING_WEB_SITE" target="_blank" title="Link"><i class="bx bx-link"></i></a>
-              </div>
+            <div class="w3-services-grids py-lg-4">
+                <div class="fea-gd-vv row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feature-gd icon-yellow">
+                            <div class="icon">
+                                <i class="fas fa-laptop"></i>
+                            </div>
+                            <div class="icon-info">
+                                <a href="#url">Web design<br> and development </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-md-0 mt-4">
+                        <div class="feature-gd icon-vilot">
+                            <div class="icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="icon-info">
+                                <a href="#url">Mobile app<br> development</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-lg-0 mt-md-5 mt-4">
+                        <div class="feature-gd icon-blue">
+                            <div class="icon">
+                                <i class='bx bxs-data' ></i>
+                            </div>
+                            <div class="icon-info">
+                                <a href="#url">Database<br> Managment</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-lg-0 mt-md-5 mt-4">
+                        <div class="feature-gd icon-red">
+                            <div class="icon">
+                                <i class='bx bxl-java' ></i>
+                            </div>
+                            <div class="icon-info">
+                                <a href="#url">JAVA<br> development</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
+                        <div class="feature-gd icon-light-green">
+                            <div class="icon">
+                                <i class='bx bxl-php' ></i>
+                            </div>
+                            <div class="icon-info">
+                                <a href="#url">php Web<br> Development </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
+                        <div class="feature-gd icon-light-blue">
+                            <div class="icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="icon-info">
+                                <a href="#url">JQuery<br> programming</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
+                        <div class="feature-gd icon-dark-green">
+                            <div class="icon">
+                                <i class='bx bxl-react' ></i>
+                            </div>
+                            <div class="icon-info">
+                                <a href="#url">React<br> development</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
+                        <div class="feature-gd icon-pink">
+                            <div class="icon">
+                                <i class="fas fa-code-branch"></i>
+                            </div>
+                            <div class="icon-info">
+                                <a href="#url">.net program<br> development</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card text-center">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-7.png" class="img-fluid" alt="Baladurage Kavinda">
-            <div class="portfolio-info">
-              <h4>Data Warehouse</h4>
-              <p>For Super Market</p>
-              <div class="portfolio-links">
-                <a href="Projects/portfolio-details-7.html" data-gallery="portfolioDetailsGallery" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bi bi-list"></i></a>
-                <a href="https://github.com/BK-KAVIYA/Supermarket-Data-Warehouse" target="_blank" title="Link"><i class="bx bx-link"></i></a>
-              </div>
+            <div class="text-center mt-5">
+                <a href="https://www.linkedin.com/in/baladurage-kavinda/" class="btn btn-style">Learn More</a>
             </div>
-          </div>
         </div>
+    </section>
+    <!-- //home service section -->
 
-
-      </div>
-
-    </div>
-  </section><!-- End Portfolio Section -->
-
-  <!-- ======= Contact Section ======= -->
-  <section id="contact" class="contact">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Contact</h2>
-        <p>Contact Me</p>
-      </div>
-
-      <div class="row mt-2">
-
-        <div class="col-md-6 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>My Address</h3>
-            <p>Dadalla Gewaththa, Thalalla North, kekanadura. 81020</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-share-alt"></i>
-            <h3>Social Profiles</h3>
-            <div class="social-links">
-              <a href="https://wa.me/+94788311883" class="whatsapp" target="_blank" title="Whatsapp"><i class="bi bi-whatsapp"></i></a>
-              <a href="https://twitter.com/BK_KAVIYA" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="https://github.com/BK-KAVIYA" class="github" target="_blank" title="GitHub"><i class="bi  bi-github"></i></a>
-              <a href="https://www.facebook.com/profile.php?id=100016232133045" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="https://instagram.com/bk__kaviya?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/baladurage-kavinda" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    <!-- testimonials section -->
+    <!-- <section class="w3l-testimonials py-5" id="testimonials">
+        <div class="container py-md-5 py-4">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+                    <div class="owl-two owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="slider-info mt-lg-4 mt-3">
+                                <div class="message">
+                                    <img src="assets/images/quote.png" alt="" class="img-fluid mb-2" />
+                                    <p><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit id
+                                            accusantium
+                                            officia quod quasi necessitatibus perspiciatis Harum error provident
+                                            quibusdam tenetur.</q></p>
+                                    <div class="name mt-4 mb-4">
+                                        <h4>Phillip Hunt</h4>
+                                        <p>Subtitle goes here</p>
+                                    </div>
+                                </div>
+                                <div class="img-circle">
+                                    <img src="assets/images/c1.jpg" class="img-fluid radius-image" alt="client">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="slider-info mt-lg-4 mt-3">
+                                <div class="message">
+                                    <img src="assets/images/quote.png" alt="" class="img-fluid mb-2" />
+                                    <p><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit id
+                                            accusantium
+                                            officia quod quasi necessitatibus perspiciatis Harum error provident
+                                            quibusdam tenetur.</q></p>
+                                    <div class="name mt-4 mb-4">
+                                        <h4>Sara Grant</h4>
+                                        <p>Subtitle goes here</p>
+                                    </div>
+                                </div>
+                                <div class="img-circle">
+                                    <img src="assets/images/c2.jpg" class="img-fluid radius-image" alt="client">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="slider-info mt-lg-4 mt-3">
+                                <div class="message">
+                                    <img src="assets/images/quote.png" alt="" class="img-fluid mb-2" />
+                                    <p><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit id
+                                            accusantium
+                                            officia quod quasi necessitatibus perspiciatis Harum error provident
+                                            quibusdam tenetur.</q></p>
+                                    <div class="name mt-4 mb-4">
+                                        <h4>Luke Jacobs</h4>
+                                        <p>Subtitle goes here</p>
+                                    </div>
+                                </div>
+                                <div class="img-circle">
+                                    <img src="assets/images/c3.jpg" class="img-fluid radius-image" alt="client">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="slider-info mt-lg-4 mt-3">
+                                <div class="message">
+                                    <img src="assets/images/quote.png" alt="" class="img-fluid mb-2" />
+                                    <p><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit id
+                                            accusantium
+                                            officia quod quasi necessitatibus perspiciatis Harum error provident
+                                            quibusdam tenetur.</q></p>
+                                    <div class="name mt-4 mb-4">
+                                        <h4>Claire Olson</h4>
+                                        <p>Subtitle goes here</p>
+                                    </div>
+                                </div>
+                                <div class="img-circle">
+                                    <img src="assets/images/c4.jpg" class="img-fluid radius-image" alt="client">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
+    </section> -->
+    <!-- //testimonials section -->
 
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email Me</h3>
-            <p>dilshankavinda371@gmail.com</p>
-          </div>
+    <section class="w3l-contact py-5" id="contact">
+        <div class="container py-lg-5 py-4">
+            <div class="title-heading-w3 text-center mb-sm-5 mb-4">
+                <h5 class="title-small">Get In Touch</h5>
+                <h3 class="title-style">Contact Me</h3>
+            </div>
+            <div class="row contact-block">
+                <div class="col-md-6 contact-left pe-lg-5">
+                    <h3 class="mb-sm-4 mb-3">Contact Info</h3>
+                    <p class="cont-para mb-sm-5 mb-4">I enjoy discussing new projects and design challenges. Please
+                        share as
+                        much info, as possible so
+                        we can get the most out of our first catch-up.</p>
+                    <div class="cont-details">
+                        <p><i class="fas fa-map-marker-alt"></i>Kekanadura, Matara, Sri Lanka 81020</p>
+                        <p><i class="fas fa-phone-alt"></i><a href="tel:+94 7883 11883">+94 7883 11883</a></p>
+                        <p><i class="fas fa-envelope-open-text"></i><a href="mailto:dilshankavinda371@gmail.com"
+                                class="mail">dilshankavinda371@gmail.com</a></p>
+                    </div>
+                    <h4 class="mb-3 mt-5">Follow Me</h4>
+                    <ul class="social-icons-contact">
+                        <li>
+                            <a href="https://twitter.com/BK_KAVIYA">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100016232133045">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/baladurage-kavinda">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/BK-KAVIYA">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/bk__kaviya?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" col-md-6 contact-right mt-md-0 mt-5 ps-lg-0">
+                    <form action="#" method="post" class="signin-form">
+                        <div class="form-group">
+                            <input type="text" name="w3lName" id="w3lName" placeholder="Your Name*"
+                                class="contact-input" required="" />
+                            <input type="email" name="w3lSender" id="w3lSender" placeholder="Your Email*"
+                                class="contact-input" required="" />
+                            <input type="text" name="w3lSubect" id="w3lSubect" placeholder="Subject*"
+                                class="contact-input" required="" />
+                            <input type="text" name="w3lWebsite" id="w3lWebsite" placeholder="Website URL*"
+                                class="contact-input" required="" />
+                        </div>
+                        <div class="form-input">
+                            <textarea name="w3lMessage" id="w3lMessage" placeholder="Type your message here*"
+                                required=""></textarea>
+                        </div>
+                        <button class="btn btn-style">Send Message</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-phone-call"></i>
-            <h3>Call Me</h3>
-            <p>+94 7883 11883</p>
-          </div>
+    </section>
+    
+
+    <!-- footer -->
+    <footer class="footer-w3ls text-center py-5">
+        <div class="container pt-4">
+            <div class="mx-auto" style="max-width:600px;">
+                <a href="index.html" class="py-1">
+                    <image src="assets/images/favicon.png" alt="Baladurage Kavinda" style="width: 80px; height: 80px;">
+                </a>
+                <p class="mt-4 text-white">I'm always looking for new and exciting projects to work on. Let's connect!</p>
+                    <div class="social-icons-main mt-4 pb-3">
+                        <ul class="social-icons3">
+                            <li>
+                                <a href="https://twitter.com/BK_KAVIYA">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=100016232133045">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/baladurage-kavinda">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/BK-KAVIYA">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/bk__kaviya?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            <!-- copyright -->
+            <p class="copy-right-w3 text-white mt-5 pt-4">© 2023 Copyright. All rights reserved | Design by
+                <a href="http://Kavinda.me" target="_blank"> Kavinda.</a>
+            </p>
         </div>
-      </div>
+    </footer>
+    <!-- //footer -->
 
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
-        <div class="row">
-          <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-          </div>
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-          </div>
-        </div>
-        <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-        </div>
-        <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-        </div>
-        <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
-        </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
-      </form>
+    <!-- Js scripts -->
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fas fa-level-up-alt" aria-hidden="true"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
 
-    </div>
-  </section><!-- End Contact Section -->
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
 
-  <div class="credits">
-    Copyright &copy; <a href="#" target="_blank" rel="noopener noreferrer">Baladurage Kavinda</a>.
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- //move top -->
 
-  </div>
+    <!-- common jquery plugin -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery plugin -->
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- libhtbox -->
+    <script src="assets/js/lightbox-plus-jquery.min.js"></script>
+    <!-- libhtbox -->
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <!-- testimonials owlcarousel -->
+    <script src="assets/js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.owl-two').owlCarousel({
+                loop: true,
+                margin: 30,
+                nav: false,
+                responsiveClass: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplaySpeed: 1000,
+                autoplayHoverPause: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    480: {
+                        items: 1,
+                        nav: false
+                    },
+                    667: {
+                        items: 1,
+                        nav: false
+                    },
+                    1000: {
+                        items: 1,
+                        nav: false
+                    }
+                }
+            })
+        })
+    </script>
+    <!-- //script for Testimonials-->
 
+    <!-- theme switch js (light and dark)-->
+    <script src="assets/js/theme-change.js"></script>
+    <!-- //theme switch js (light and dark)-->
+
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });s
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- //bootstrap -->
+    <!-- //Js scripts -->
 </body>
 
 </html>
