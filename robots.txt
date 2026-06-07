@@ -1,3 +1,4 @@
 User-agent: *
-Allow : /
-Sitemap:https://bk-kaviya.github.io/sitemap.xml
+Allow: /
+
+Sitemap: https://kavinda.top/sitemap.xml

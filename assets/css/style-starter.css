@@ -19362,6 +19362,13 @@ h3.title-style {
   z-index: 1;
 }
 
+@media (max-width: 799px) {
+  .w3l-banner {
+    background: url(../images/banner_mobile.png) no-repeat center;
+    background-size: cover;
+  }
+}
+
 .w3l-banner:before {
   content: "";
   position: absolute;
